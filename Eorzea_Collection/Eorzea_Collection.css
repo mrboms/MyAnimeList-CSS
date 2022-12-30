@@ -2,7 +2,7 @@
 /*@import "https://malscraper.azurewebsites.net/covers/auto/presets/dataimagelinkafter";*/
 :root{
 	--color: #99bb10;
-  --font: 'Font Awesome 6 Pro';
+	--font: 'Font Awesome 6 Pro';
 }
 
 /* Latest Updates: 08.09.2018
@@ -289,7 +289,7 @@ i.fa.fa-sort-asc.sort-icon,
 				  
     background-repeat: no-repeat;
 	width: 1053px;
-    height: 250px;
+    height: 550px;
 	background-color: #191919;
     margin-bottom: 52px;
     margin-left: 0;
