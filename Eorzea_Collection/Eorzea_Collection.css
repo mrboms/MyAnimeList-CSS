@@ -285,6 +285,8 @@ i.fa.fa-sort-asc.sort-icon,
 
 .list-container .cover-block {
     background-image: url("https://mrboms.github.io/MyAnimeList-CSS/Eorzea_Collection/images/Cover-Block-4.png");
+				  
+				  
     background-repeat: no-repeat;
 	width: 1053px;
     height: 250px;
@@ -366,7 +368,7 @@ i.fa.fa-sort-asc.sort-icon,
 }
 
 .list-table>tbody:first-of-type {
-    top: 264px;
+    top: 564px;
     position: absolute;
     right: 306px;
     cursor: pointer;
@@ -940,7 +942,7 @@ a[href="/login.php"]:after {
 
 /* Header Height */
 .list-menu-float {
-  top: 329px !important;
+  top: 629px !important;
 }
 
 /* Footer Font Color */
@@ -987,6 +989,16 @@ a[href="/login.php"]:after {
   width: 100px;
   opacity: 1;
 }
+
+	  
+																		
+																																							  
+												 
+										 
+										 
+											
+									  
+ 
 
 input[type='text'],
 select {
