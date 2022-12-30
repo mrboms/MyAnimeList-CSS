@@ -1,13 +1,11 @@
 @charset "UTF-8";
-@\import "https://malscraper.azurewebsites.net/covers/auto/presets/dataimagelinkafter";
-@\import "https://murakumo-jp.github.io/MyAnimeList-CSS/Cover/AnimeCover.css"; /* Cover Without Auto-Update */
-
+/*@import "https://malscraper.azurewebsites.net/covers/auto/presets/dataimagelinkafter";*/
 :root{
-	--color: #f10834;
+	--color: #99bb10;
   --font: 'Font Awesome 6 Pro';
 }
 
-/* Latest Updates: 02.09.2018
+/* Latest Updates: 08.09.2018
 	Original page design from ffxiv.eorzeacollection.com by Edeon Vails.
 	List CSS and adaption by MurakumoJP.
 	GitHub: https://github.com/Murakumo-JP/MyAnimeList-CSS
@@ -27,10 +25,10 @@
     background-clip: padding-box;
     background-color: #3c3c3c;
 }
- 
+
 body {
 	font: normal normal normal 13px / 1 tahoma, verdana, arial, sans-serif;
-	background-image: url(none) !important;
+	background-image: url(https://mrboms.github.io/Eorzea-Collection-MyAnimeList/Eorzea_Collection/images/background.png) !important;
 	background-position: top 40px center !important;
 	background-attachment: fixed !important;
     background-color: #3c3c3c !important;
@@ -119,6 +117,52 @@ body .initialize-tutorial {
     font: 20px/30px var(--font);
     z-index: 1;
 }
+
+/*===== Edit Color list =======*/ 
+ 
+/* .header .header-title, .list-container .status-menu-container .status-menu .status-button.on,
+.list-container .status-menu-container .status-menu .status-button:hover,
+.list-container .list-unit .list-table .list-item .list-table-data .data.score::before,
+.list-unit::after, input[type='text'], select, .td1.borderRBL a {
+	color: #99bb10 !important;
+}
+
+.status-menu-container .status-menu .status-button:before,
+.list-menu-float .icon-menu, .list-menu-float .icon-menu:not(.profile):hover, 
+.list-container .status-menu-container .search-container #search-button,
+.list-container .list-unit .list-table .list-item .list-table-data .data.title .add-edit-more .edit a::before, 
+.list-container .list-unit .list-table .list-item .list-table-data .data.title .add-edit-more .add a::before,
+.list-container .list-unit .list-table .list-item .list-table-data .data.progress, 
+.list-container .list-unit .list-table .list-item .list-table-data .data.chapter, 
+.list-container .list-unit .list-table .list-item .list-table-data .data.volume,
+.list-container .list-unit .list-table .list-item .list-table-data .data.progress .icon-add-episode, 
+.list-container .list-unit .list-table .list-item .list-table-data .data.progress .icon-add-chapter, 
+.list-container .list-unit .list-table .list-item .list-table-data .data.progress .icon-add-volume, 
+.list-container .list-unit .list-table .list-item .list-table-data .data.chapter .icon-add-episode, 
+.list-container .list-unit .list-table .list-item .list-table-data .data.chapter .icon-add-chapter, 
+.list-container .list-unit .list-table .list-item .list-table-data .data.chapter .icon-add-volume, 
+.list-container .list-unit .list-table .list-item .list-table-data .data.volume .icon-add-episode, 
+.list-container .list-unit .list-table .list-item .list-table-data .data.volume .icon-add-chapter, 
+.list-container .list-unit .list-table .list-item .list-table-data .data.volume .icon-add-volume,
+.list-unit .list-status-title .text, .list-container .list-unit .list-table tbody:first-child::after,
+.list-container .list-unit .list-table tbody:first-child .list-table-header .header-title .link,
+.list-container .list-unit .list-table .list-item .list-table-data .data.title .content-status,
+.list-container .list-unit .list-table .list-item .list-table-data .data.title .add-edit-more .more a::before,
+.header .header-menu .list-menu .icon-menu, ::-webkit-scrollbar, #show-stats-button, #advanced-options-button,
+#advanced-options .btn-apply, #advanced-options .btn-clear, #advanced-options .sort-widget input[type=radio]:checked + label {
+	background-color: #99bb10 !important;
+}
+
+#advanced-options .btn-apply:hover, #advanced-options .btn-clear:hover {
+    background-color: rgba(241, 8, 52, 0.8) !important;
+}
+
+.list-container .status-menu-container,.list-item:hover:before,
+.list-container .list-unit .list-stats, .list-unit::after, .list-container .cover-block, input[type='text'], 
+select, .initialize-tutorial:before, .initialize-tutorial .initialize-tutorial__message, 
+#advanced-options .sort-widget input[type=radio]:checked + label {
+	border-color: #99bb10 !important;
+} */
 
 /* Display NONE */
 i.fa.fa-sort-asc.sort-icon, 
@@ -231,7 +275,7 @@ i.fa.fa-sort-asc.sort-icon,
     -webkit-border-radius: 6px;
     -moz-border-radius: 6px;
     border-radius: 6px;
-    background: url("https://murakumo-jp.github.io/MyAnimeList-CSS/Eorzea_Collection/images/search.png") var(--color);
+    background: url("https://mrboms.github.io/Eorzea-Collection-MyAnimeList/Eorzea_Collection/images/search.png") var(--color);
     width: 28px;
     height: 28px;
     font-size: 0;
@@ -240,11 +284,11 @@ i.fa.fa-sort-asc.sort-icon,
 /* Cover Block */
 
 .list-container .cover-block {
-    background-image: url("https://murakumo-jp.github.io/MyAnimeList-CSS/Eorzea_Collection/images/cover-block-2.png");
+    background-image: url("https://mrboms.github.io/Eorzea-Collection-MyAnimeList/Eorzea_Collection/images/Cover-Block-4.png");
     background-repeat: no-repeat;
 	width: 1053px;
     height: 250px;
-    background-color: #191919;
+	background-color: #191919;
     margin-bottom: 52px;
     margin-left: 0;
     margin-right: 0;
@@ -271,7 +315,7 @@ i.fa.fa-sort-asc.sort-icon,
     margin-top: 0px;
     padding: 2px 6px 2px 14px;
     margin-right: 14px;
-    background: url("https://murakumo-jp.github.io/MyAnimeList-CSS/Eorzea_Collection/images/RatingRX.png") #191919f2;
+    background: url("https://mrboms.github.io/Eorzea-Collection-MyAnimeList/Eorzea_Collection/images/RatingRX.png") #191919f2;
     margin-left: -100%;
     opacity: 1;
 }
@@ -379,7 +423,7 @@ body.ownlist.manga .list-container .list-unit .list-table tbody:first-child:hove
     width: 100%;
     border: transparent;
     list-style: none;
-    background: #191919;
+    background: #191919cc;
     color: #fff;
     margin: 10px 0px 0px;
     padding-bottom: 15px;
@@ -547,7 +591,7 @@ body.ownlist.manga .list-container .list-unit .list-table tbody:first-child:hove
     height: 13px;
     width: 197px;
     padding: 5px 0 5px 0;
-    border-top: 2px solid #3e3d3d;
+    /*border-top: 2px solid #3e3d3d99;*/
     background-color: transparent;
     font-size: 10px;
     opacity: 1;
@@ -589,7 +633,7 @@ body.ownlist.manga .list-container .list-unit .list-table tbody:first-child:hove
     height: 37px;
     width: 196px;
     padding: 3px 0 7px 0;
-    background-color: #191919;
+    background-color: #191919cc;
     font-size: 11px;
     opacity: 1;
     color: #ccc;
@@ -1552,7 +1596,7 @@ a.status-button:hover {
 }
 
 .list-unit::after {
-    content: "MyAnimeList.net is a property of MyAnimeList, LLC. ©2015 All Rights Reserved. \a Original page design from ffxiv.eorzeacollection.com by Edeon Vails. \a List CSS and adaption by MurakumoJP.";
+    content: "MyAnimeList.net is a property of MyAnimeList, LLC. ©2015 All Rights Reserved. \a Original page design from ffxiv.eorzeacollection.com by Edeon Vails. \a List CSS and adaption by MurakumoJP. \a Custom by SKunio.";
     display: block !important;
     padding: 15px !important;
     width: 1025px;
