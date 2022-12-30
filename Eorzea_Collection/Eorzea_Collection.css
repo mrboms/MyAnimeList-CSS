@@ -2,7 +2,7 @@
 /*@import "https://malscraper.azurewebsites.net/covers/auto/presets/dataimagelinkafter";*/
 :root{
 	--color: #99bb10;
-	--font: 'Font Awesome 6 Pro';
+  --font: 'Font Awesome 6 Pro';
 }
 
 /* Latest Updates: 08.09.2018
@@ -28,7 +28,7 @@
 
 body {
 	font: normal normal normal 13px / 1 tahoma, verdana, arial, sans-serif;
-	background-image: url(https://mrboms.github.io/MyAnimeList-CSS/Eorzea_Collection//images/background.png) !important;
+	background-image: url(https://mrboms.github.io/MyAnimeList-CSS/Eorzea_Collection/images/background.png) !important;
 	background-position: top 40px center !important;
 	background-attachment: fixed !important;
     background-color: #3c3c3c !important;
@@ -275,7 +275,7 @@ i.fa.fa-sort-asc.sort-icon,
     -webkit-border-radius: 6px;
     -moz-border-radius: 6px;
     border-radius: 6px;
-    background: url("https://mrboms.github.io/MyAnimeList-CSS/Eorzea_Collection//images/search.png") var(--color);
+    background: url("https://mrboms.github.io/MyAnimeList-CSS/Eorzea_Collection/images/search.png") var(--color);
     width: 28px;
     height: 28px;
     font-size: 0;
@@ -284,7 +284,7 @@ i.fa.fa-sort-asc.sort-icon,
 /* Cover Block */
 
 .list-container .cover-block {
-    background-image: url("https://mrboms.github.io/MyAnimeList-CSS/Eorzea_Collection//images/Cover-Block-4.png");
+    background-image: url("https://mrboms.github.io/MyAnimeList-CSS/Eorzea_Collection/images/Cover-Block-4.png");
     background-repeat: no-repeat;
 	width: 1053px;
     height: 250px;
@@ -315,7 +315,7 @@ i.fa.fa-sort-asc.sort-icon,
     margin-top: 0px;
     padding: 2px 6px 2px 14px;
     margin-right: 14px;
-    background: url("https://mrboms.github.io/MyAnimeList-CSS/Eorzea_Collection//images/RatingRX.png") #191919f2;
+    background: url("https://mrboms.github.io/MyAnimeList-CSS/Eorzea_Collection/images/RatingRX.png") #191919f2;
     margin-left: -100%;
     opacity: 1;
 }
